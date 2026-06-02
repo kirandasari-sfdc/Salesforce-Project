@@ -9,4 +9,8 @@ public class getAccountsData {
         String sKey = '%'+searchKey+'%';
         return [select Id,Name,Type,Industry from Account where Type =:searchKey];
     }
+
+    public void testAccounts(){
+        
+    }
 }
